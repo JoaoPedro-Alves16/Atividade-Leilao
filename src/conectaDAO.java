@@ -19,7 +19,7 @@ public class conectaDAO {
 
         try {
 
-            String url = "jdbc:mysql://localhost:3306/leilao?user=root&password=root";
+            String url = "jdbc:mysql://localhost:3306/leilao?user=root&password=root&useSSL=false";
             conn = DriverManager.getConnection(url);
 
         } catch (SQLException erro) {
